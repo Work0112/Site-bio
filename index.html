@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стильне Біо</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Анімація завантаження -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Основний контент -->
+    <div id="content" style="display: none;">
+        <header>
+            <h1 class="animate-title">Моє Біо</h1>
+        </header>
+        <main>
+            <section class="bio">
+                <img id="avatar" src="com/png/png.png" alt="Аватарка" onerror="this.src='https://via.placeholder.com/180?text=Аватарка'">
+                <div class="info">
+                    <p class="animate-text"><strong>Нік:</strong> <span id="nick">Завантаження...</span></p>
+                    <p class="animate-text"><strong>Ім'я:</strong> <span id="name">Завантаження...</span></p>
+                    <p class="animate-text"><strong>Вік:</strong> <span id="age">Завантаження...</span></p>
+                    <p class="animate-text"><strong>Посилання 1:</strong> <a id="link" href="#" target="_blank" class="button rect">Завантаження...</a></p>
+                    <p class="animate-text"><strong>Посилання 2:</strong> <a id="link2" href="#" target="_blank" class="button circle">Завантаження...</a></p>
+                    <p class="animate-text"><strong>GitHub:</strong> <a id="github" href="#" target="_blank" class="button rect"><img src="com/png/github.png" alt="GitHub" width="20" onerror="this.src='https://via.placeholder.com/20?text=GitHub'"> GitHub</a></p>
+                    <p class="animate-text"><strong>Сайт:</strong> <a id="site" href="#" target="_blank" class="button hexagon">Завантаження...</a></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="animate-text">Розроблено: <span id="dev-nick">Завантаження...</span></p>
+            <p class="animate-text"><a id="dev-github" href="#" target="_blank"><img src="com/png/github.png" alt="GitHub" width="20" onerror="this.src='https://via.placeholder.com/20?text=GitHub'"> GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
